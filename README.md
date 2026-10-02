@@ -2,6 +2,8 @@
 
 > ⚠️ **Vibe Coded** — written by an AI agent working from a human's direction. It is used in a shipping game and covered by tests, but it has had no line-by-line human audit. Read it before you trust it.
 
+> **Archived 2026-09-04 — this crate is now [`bevy_carnage::flaymap`](https://github.com/Ladvien/bevy_carnage).** Depend on `bevy_carnage` and import from `bevy_carnage::flaymap`. Every version on crates.io is yanked; a lockfile that pins one still builds. This repository no longer mirrors anything: `crates/bevy_flaymap/` was removed from [`Ladvien/foundation_vs_slop`](https://github.com/Ladvien/foundation_vs_slop) when the crate became a module.
+
 Texture-space flaying for Bevy: hit the same place twice and the skin comes off, hit it a dozen times and you are through the fat, the muscle and into bone — at the depths those tissues were actually measured at, shaded from the same palette a cut face is, and **on the CPU in integers, so you can hash it.**
 
 > **This repo is a read-only mirror.** It is split out of [`Ladvien/foundation_vs_slop`](https://github.com/Ladvien/foundation_vs_slop) with `git subtree split`, history intact. Issues and PRs belong upstream.
